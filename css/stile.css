@@ -40,8 +40,80 @@ section.hero{
     padding-top: 80px;
 
 }
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding-right: 80px;
+}
 .hero .wrapper{
 text-align: right;
-border: 2px solid red;
-padding: 100px;
+padding: 20px;
+width: 600px;
+height: 490px;
+background-color: rgba(255, 20, 20, 0.7);
+
 }
+
+.hero p{
+    text-align: left;
+        font: 400 18px/1.6 "Roboto", sans-serif;
+        color: white;
+    
+}
+h2{
+color: white;
+font: 700 50px/1.1 "Jost", sans-serif;
+text-align: left;
+}
+
+.hero .bouton{
+border: 2px, solid #C0392B;
+padding: 15px;
+border-radius: 30px;
+font: 700 18px/1.0 "Jost", sans-serif;
+color: #ffffff;
+background-color: #C0392B;
+}
+.contenu{
+    background-color: lightgray;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+
+}
+.contenu h3{
+    font: 700 28px/1.0 "Jost", sans-serif;
+    margin: 0px;
+    padding: 100px 0px 10px 0px;
+}
+.contenu p{
+    font: 400 18px/1.6 "Roboto", sans-serif; 
+    padding: 0px 0px 20px 0px;
+}
+.contenu .wrapper .web{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-gap:20px ;
+padding: 20px 0px 20px 0px;
+
+}
+.web article{
+    text-align: left;
+    border: 2px, solid rebeccapurple;
+width: 383px;
+}
+.web h4{
+   margin: 0px;
+   padding: 20px;
+   text-align: left;
+   align-items: center;
+   display: flex;
+   justify-content: center;
+   gap: 10px;
+}
+.web p{
+    padding: 10px;
+    text-align: left;
+}
+
