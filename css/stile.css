@@ -1,119 +1,143 @@
-.header .wrapper{
-    display: flex;
-    justify-content: space-between;
-    padding: 0px 100px 0px 100px;
-    align-items: center;
-
+.header .wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 100px 0px 100px;
+  align-items: center;
 }
-header{
-    height: 80px;
-    width: 100%;
-    background-color: #ffffff;
-    position: fixed;
-    top: 0px;
-    margin: 0px;
+header {
+  height: 80px;
+  width: 100%;
+  background-color: #ffffff;
+  position: fixed;
+  top: 0px;
+  margin: 0px;
 }
-.header ul{
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    gap: 30px;
+.header ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
 }
-li a{
-    text-decoration: none;
-    font-family: "Jost", sans-serif;
+li a {
+  text-decoration: none;
+  font-family: "Jost", sans-serif;
   font-optical-sizing: auto;
   font-weight: 700;
   font-size: 1.125rem;
   color: black;
 }
-h1{
-    font-family: "Jost", sans-serif;
+h1 {
+  font-family: "Jost", sans-serif;
   font-size: 42px;
   font-weight: 700;
 }
-section.hero{
-    background-image: url(../image/HERO.png);
-    background-repeat: no-repeat;
-    background-size:cover;
-    height: 650px;
-    padding-top: 80px;
-
+section.hero {
+  background-image: url(../image/HERO.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 650px;
+  padding-top: 80px;
 }
-.hero{
-    display: flex;
-    align-items: center;
-    justify-content: right;
-    padding-right: 80px;
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  padding-right: 80px;
 }
-.hero .wrapper{
-text-align: right;
-padding: 20px;
-width: 600px;
-height: 490px;
-background-color: rgba(255, 20, 20, 0.7);
-
+.hero .wrapper {
+  text-align: right;
+  padding: 20px;
+  width: 600px;
+  height: 490px;
+  background-color: rgba(255, 20, 20, 0.7);
 }
 
-.hero p{
-    text-align: left;
-        font: 400 18px/1.6 "Roboto", sans-serif;
-        color: white;
-    
+.hero p {
+  text-align: left;
+  font:
+    400 18px/1.6 "Roboto",
+    sans-serif;
+  color: white;
 }
-h2{
-color: white;
-font: 700 50px/1.1 "Jost", sans-serif;
-text-align: left;
-}
-
-.hero .bouton{
-border: 2px, solid #C0392B;
-padding: 15px;
-border-radius: 30px;
-font: 700 18px/1.0 "Jost", sans-serif;
-color: #ffffff;
-background-color: #C0392B;
-}
-.contenu{
-    background-color: lightgray;
-    margin: 0px;
-    display: flex;
-    justify-content: center;
-
-}
-.contenu h3{
-    font: 700 28px/1.0 "Jost", sans-serif;
-    margin: 0px;
-    padding: 100px 0px 10px 0px;
-}
-.contenu p{
-    font: 400 18px/1.6 "Roboto", sans-serif; 
-    padding: 0px 0px 20px 0px;
-}
-.contenu .wrapper .web{
-display: grid;
-grid-template-columns: 1fr 1fr 1fr;
-grid-gap:20px ;
-padding: 20px 0px 20px 0px;
-
-}
-.web article{
-    text-align: left;
-    border: 2px, solid rebeccapurple;
-width: 383px;
-}
-.web h4{
-   margin: 0px;
-   padding: 20px;
-   text-align: left;
-   align-items: center;
-   display: flex;
-   justify-content: center;
-   gap: 10px;
-}
-.web p{
-    padding: 10px;
-    text-align: left;
+h2 {
+  color: white;
+  font:
+    700 50px/1.1 "Jost",
+    sans-serif;
+  text-align: left;
 }
 
+.hero .bouton {
+  border:
+    2px,
+    solid #c0392b;
+  padding: 15px;
+  border-radius: 30px;
+  font:
+    700 18px/1 "Jost",
+    sans-serif;
+  color: #ffffff;
+  background-color: #c0392b;
+}
+.contenu {
+  background-color: lightgray;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+}
+.contenu h3 {
+  font:
+    700 28px/1 "Jost",
+    sans-serif;
+  margin: 0px;
+  padding: 100px 0px 10px 0px;
+}
+.contenu p {
+  font:
+    400 18px/1.6 "Roboto",
+    sans-serif;
+  padding: 0px 0px 20px 0px;
+}
+.contenu .wrapper .web {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  padding: 20px 0px 20px 0px;
+}
+.web article {
+  text-align: left;
+ 
+  width: 383px;
+  background-color: white;
+}
+.web h4 {
+  margin: 0px;
+  padding: 20px;
+  text-align: left;
+  align-items: center;
+  display: flex;
+  justify-content: left;
+  gap: 10px;
+  font:
+    700 22px/1.1 "Josefin",
+    sans-serif;
+    color: #E25254;
+}
+.web p {
+  padding: 20px;
+  text-align: left;
+  margin: 0;
+  font:
+    400 18px/1.6 "Roboto",  sans-serif;
+    color: black;
+}
+.web .rouge{
+    background-color: #E25254;
+   
+}
+.web .rouge h4{
+    color: white;
+}
+.web .rouge p{
+    color: #ffffff;
+}
