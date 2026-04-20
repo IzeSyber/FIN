@@ -1,0 +1,47 @@
+.header .wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 100px 0px 100px;
+    align-items: center;
+
+}
+header{
+    height: 80px;
+    width: 100%;
+    background-color: #ffffff;
+    position: fixed;
+    top: 0px;
+    margin: 0px;
+}
+.header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+li a{
+    text-decoration: none;
+    font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-size: 1.125rem;
+  color: black;
+}
+h1{
+    font-family: "Jost", sans-serif;
+  font-size: 42px;
+  font-weight: 700;
+}
+section.hero{
+    background-image: url(../image/HERO.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 650px;
+    padding-top: 80px;
+
+}
+.hero .wrapper{
+text-align: right;
+border: 2px solid red;
+padding: 100px;
+}
