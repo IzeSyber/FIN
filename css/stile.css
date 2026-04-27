@@ -194,12 +194,15 @@ section.conseil{
     color: #E25254;
     padding: 10px;
 }
-
-.goom article span{
-display: flex;
-justify-content: end;
-}
 .goom article .bouton{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding: 10px;
+}
+
+
+.goom article a{
     border:
     2px,
     solid #c0392b;
@@ -211,4 +214,23 @@ justify-content: end;
   color: #ffffff;
   background-color: #c0392b;
   align-items: end;
+  width: 120px;
+text-decoration: none;
+
+}
+footer .wrapper{
+  display: flex;
+  background-color: #E25254;
+justify-content: space-between;
+padding: 0px 80px 0px 80px;
+}
+footer .wrapper p{
+  margin: 0;
+  text-align: center;
+  padding: 20px;
+  background-color: #E25254;
+  padding: 20px;
+  font:
+    400 18px/1.6 "Roboto",  sans-serif;
+    color: black
 }
