@@ -141,3 +141,74 @@ h2 {
 .web .rouge p{
     color: #ffffff;
 }
+section.conseil{
+  background-image: url(../image/3px-tile\ 13.png);
+  background-repeat: 100;
+  background-color: #c0392b;
+  margin: 0px;
+}
+.conseil h3{
+  margin: 0;
+  font:
+    700 18px/1 "Jost",
+    sans-serif;
+    font-size: 36px;
+    padding: 80px 0px 10px 340px;
+    color: #ffffff;
+}
+.conseil p{
+  font:
+    400 18px/1.6 "Roboto",  sans-serif;
+    color: white;
+    padding: 0px 0px 0px 340px;
+}
+.conseil .goom p{
+  padding: 20px 0px 0px 50px;
+  color: black;
+  text-align: left;
+}
+ .wrapper .goom{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  justify-content: center;
+  padding: 50px;
+  
+  gap: 20px;
+}
+.goom article{
+  text-align: center;
+  padding: 20px;
+  align-items: center;
+  background-color: #ffffff;
+  height: 288px;
+}
+.goom article h4{
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 10px;
+  font:
+    700 22px/1.1 "Josefin",
+    sans-serif;
+    color: #E25254;
+    padding: 10px;
+}
+
+.goom article span{
+display: flex;
+justify-content: end;
+}
+.goom article .bouton{
+    border:
+    2px,
+    solid #c0392b;
+  padding: 10px;
+  border-radius: 30px;
+  font:
+    700 18px/1 "Jost",
+    sans-serif;
+  color: #ffffff;
+  background-color: #c0392b;
+  align-items: end;
+}
